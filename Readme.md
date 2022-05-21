@@ -18,7 +18,11 @@ It is composed of 2 projects:
 
 ## Sources (not ordered)
 https://blog.logrocket.com/build-rest-api-typescript-using-native-modules/
+
 https://blog.logrocket.com/express-middleware-a-complete-guide/
+
 https://amirmustafaofficial.medium.com/node-js-and-express-js-with-typescript-d4ea7e61096
+
 https://medium.com/geekculture/how-to-build-a-rest-api-with-express-js-and-typescript-part-ii-organising-routes-ee293eeb16eb
+
 https://wanago.io/2018/12/03/typescript-express-tutorial-routing-controllers-middleware/
