@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon dist/server.js"
+    "start": "tsc && node dist/server.js",
+    "watch": "tsc --watch",
+    "dev": "nodemon dist/server.js"
   },
   "author": "Alexis NGUYEN-GOUMENT",
   "license": "ISC",
