@@ -16,6 +16,9 @@ It is composed of 2 projects:
 ## Run
 > npm start
 
+## Hexagonal Architecture
+![API architecture diagram](./apiArchitecture.png)
+
 ## Sources (not ordered)
 https://blog.logrocket.com/build-rest-api-typescript-using-native-modules/
 
