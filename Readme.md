@@ -10,11 +10,22 @@ It is composed of 2 projects:
 * API
 * UI (didn't had time 🙁)
 
+The code is based on [ExpressJS](https://expressjs.com/)
+
 ## Prerequisites
 * NodeJS + npm -> [install](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ## Run
 > npm start
+
+## Tests
+GET localhost:3000 -> should return "Healthy"
+
+GET localhost:3000/api/text/autocorrect?apiKey=b3305994-1102-4665-a36f-ff03403bc056 -> should return a list of mocked data
+
+GET localhost:3000/api/text/autocorrect -> should return an error 400
+
+GET localhost:3000/api/text/autocorrect?apiKey=toto -> should return an error 401
 
 ## Hexagonal Architecture
 ![API architecture diagram](./apiArchitecture.png)
